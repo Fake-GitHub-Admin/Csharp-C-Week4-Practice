@@ -8,7 +8,7 @@
 /*This file will do a classical simple parameter conditional scan and print list of all criminals and non criminals the next file will mess with arrays
 and adding to appropiate list */
 
-Console Result File Name:
+Console Result File Name: practice2.png
 
 *Updated* practice3.cs
 
@@ -16,7 +16,7 @@ Console Result File Name:
 call C# Arraylist vs Array, just an unspoken code. All in all it was a job achieved. I will upload console results as well.
 */
 
-Console Result File Name:
+Console Result File Name: practice3.png
 
 This was ran on Visual Studio Code, installed .Net components to easily run the C# code.
 
