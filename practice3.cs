@@ -13,18 +13,18 @@ namespace MyApplication
             //All Console.WriteLine have now been commented to see whether the function under the class is doing what is supposed to do.
             if (YesorNoCriminal == "Y")
                     {
-                     ViolatorsList.Add(Name); 
+                        ViolatorsList.Add(Name); 
                 //Console.WriteLine("Suspect " + Name + " " + Gender + " " + "(age: " + age + ") tested Positive on test for Criminals");
                     }
 
               else if(YesorNoCriminal == "N")
                     {
-                    NonViolatorsList.Add(Name);
+                        NonViolatorsList.Add(Name);
                 //Console.WriteLine("Suspect " + Name + " " + Gender + " " + "(age:" + age + ") tested Negative on test for Criminals");
                     }
                 else
                     {
-                ErrorList.Add(Name);
+                        ErrorList.Add(Name);
                 //Console.WriteLine("Error, " + Name + " " + "Please Enter in Y or N");
                     }
             //This for loop i
@@ -36,34 +36,37 @@ namespace MyApplication
              Violators include: John Blue
              */
 
-            /*
+            
             foreach (String i in ViolatorsList)
             {
-                Console.WriteLine("Violators include: " + i);
+                Console.WriteLine(i + " is a Violator. ");
             }
             foreach (String i in NonViolatorsList)
             {
-                Console.WriteLine("Non-Violators include: " + i);
+                Console.WriteLine(i + " is a NonViolator. ");
             }
-            */
 
 
-            Console.WriteLine(ViolatorsList);
-            Console.WriteLine(NonViolatorsList);
-            Console.WriteLine(ErrorList);
+            //C# is closer to Java than of JavaScript, if you run this it will automatically set all values default to
+            //"System.Collections.Generic.List`1[System.String]" 
+
+            //Console.WriteLine(ViolatorsList);
+            //Console.WriteLine(NonViolatorsList);
+            //Console.WriteLine(ErrorList);
         }
 
-    static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("This is in bulleted list format of everyone");
+            // Console.WriteLine("This is in bulleted list format of everyone");
+            Console.WriteLine("C# Progress as of 4/20");
             theListFilter("Eberhault", "Male", 40, "Y");
-            theListFilter("Sarah Lee", "Female", 40, "Y");             
+            theListFilter("Sarah Lee", "Female", 40, "Y");
             theListFilter("Rose Ana", "Female", 19, "N");
             theListFilter("John Blue", "Male", 27, "Y");
             theListFilter("Eberhault Wick", "Male", 40, "B");
 
 
-            Console.WriteLine("C# Progress as of 4/20");
+            
             
 
         }
