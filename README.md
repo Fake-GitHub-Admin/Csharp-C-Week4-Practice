@@ -21,4 +21,13 @@ Console Result File Name: practice3.png
 
 
 
-5/3 - End
+
+For 4/21
+**Read Me** Make progress on C++, avoid Javascript like challeneges for these two languages, try a more numbering data focus like tic tac toe or maybe battle ship. Giving special focus to the potential products/experience that could be gained from this endeavor.
+
+
+
+
+
+
+5/3 - End 
